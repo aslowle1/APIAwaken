@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		5E111EB51E3E521700E4FD6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E111EB41E3E521700E4FD6B /* AppDelegate.swift */; };
-		5E111EB71E3E521700E4FD6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E111EB61E3E521700E4FD6B /* ViewController.swift */; };
+		5E111EB71E3E521700E4FD6B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E111EB61E3E521700E4FD6B /* HomeViewController.swift */; };
 		5E111EBA1E3E521700E4FD6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E111EB81E3E521700E4FD6B /* Main.storyboard */; };
 		5E111EBC1E3E521700E4FD6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E111EBB1E3E521700E4FD6B /* Assets.xcassets */; };
 		5E111EBF1E3E521700E4FD6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E111EBD1E3E521700E4FD6B /* LaunchScreen.storyboard */; };
+		5E111EC71E3E5B3B00E4FD6B /* DetailedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E111EC61E3E5B3B00E4FD6B /* DetailedTableViewController.swift */; };
+		5EADAEB11E3F46C200E9ECC9 /* PeopleVehiclesShips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EADAEB01E3F46C200E9ECC9 /* PeopleVehiclesShips.swift */; };
+		5EADAEB31E3F4BA900E9ECC9 /* APIEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EADAEB21E3F4BA900E9ECC9 /* APIEndPoint.swift */; };
+		5EF15B131E3E8F1600D910F1 /* CategoryOptionsPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF15B121E3E8F1600D910F1 /* CategoryOptionsPickerView.swift */; };
+		5EF15B151E3EC2DE00D910F1 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF15B141E3EC2DE00D910F1 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E111EB11E3E521600E4FD6B /* APIAwakens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIAwakens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E111EB41E3E521700E4FD6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E111EB61E3E521700E4FD6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E111EB61E3E521700E4FD6B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5E111EB91E3E521700E4FD6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E111EBB1E3E521700E4FD6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E111EBE1E3E521700E4FD6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E111EC01E3E521700E4FD6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E111EC61E3E5B3B00E4FD6B /* DetailedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedTableViewController.swift; sourceTree = "<group>"; };
+		5EADAEB01E3F46C200E9ECC9 /* PeopleVehiclesShips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleVehiclesShips.swift; sourceTree = "<group>"; };
+		5EADAEB21E3F4BA900E9ECC9 /* APIEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEndPoint.swift; sourceTree = "<group>"; };
+		5EF15B121E3E8F1600D910F1 /* CategoryOptionsPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryOptionsPickerView.swift; sourceTree = "<group>"; };
+		5EF15B141E3EC2DE00D910F1 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				5E111EB41E3E521700E4FD6B /* AppDelegate.swift */,
-				5E111EB61E3E521700E4FD6B /* ViewController.swift */,
+				5E111EB61E3E521700E4FD6B /* HomeViewController.swift */,
+				5E111EC61E3E5B3B00E4FD6B /* DetailedTableViewController.swift */,
 				5E111EB81E3E521700E4FD6B /* Main.storyboard */,
 				5E111EBB1E3E521700E4FD6B /* Assets.xcassets */,
 				5E111EBD1E3E521700E4FD6B /* LaunchScreen.storyboard */,
 				5E111EC01E3E521700E4FD6B /* Info.plist */,
+				5EF15B121E3E8F1600D910F1 /* CategoryOptionsPickerView.swift */,
+				5EF15B141E3EC2DE00D910F1 /* CustomTableViewCell.swift */,
+				5EADAEB01E3F46C200E9ECC9 /* PeopleVehiclesShips.swift */,
+				5EADAEB21E3F4BA900E9ECC9 /* APIEndPoint.swift */,
 			);
 			path = APIAwakens;
 			sourceTree = "<group>";
@@ -136,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E111EB71E3E521700E4FD6B /* ViewController.swift in Sources */,
+				5EF15B151E3EC2DE00D910F1 /* CustomTableViewCell.swift in Sources */,
+				5EF15B131E3E8F1600D910F1 /* CategoryOptionsPickerView.swift in Sources */,
+				5E111EC71E3E5B3B00E4FD6B /* DetailedTableViewController.swift in Sources */,
+				5E111EB71E3E521700E4FD6B /* HomeViewController.swift in Sources */,
 				5E111EB51E3E521700E4FD6B /* AppDelegate.swift in Sources */,
+				5EADAEB11E3F46C200E9ECC9 /* PeopleVehiclesShips.swift in Sources */,
+				5EADAEB31E3F4BA900E9ECC9 /* APIEndPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +317,7 @@
 				5E111EC51E3E521700E4FD6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
